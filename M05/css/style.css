@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to bottom,white,white,gray);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 4.8%;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 5px 5px 10px 3px lightblue;
+}
+
+.navbar .nav-logo img {
+    width: 40%;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70rem;
+}
+
+.navbar .navbar-nav a:hover {
+    color: red;
+}
+
+.navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid black;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.6);
+}
+
+.navbar .navbar-nav a::before {
+    content: "";
+    display: block;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid black;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::before {
+    transform: scaleX(0.6);
+}
+.wrap-carousel {
+    width: 100%;
+}
+
+#home {
+    padding-top: 0.01rem;
+}
+
+.carousel {
+    min-height: 70vh;
+    background-image: url("https://api-homesite.mikroskil.ac.id/uploads/slide/foto/e0fa055bcf13afdf5aadadedf39a78a6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 7rem;
+    background-position: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quotes {
+    width: 80%;
+    margin:20px auto;
+    padding-top: 20px;
+    height: 240px;
+    background-image: linear-gradient(to bottom,white,gray);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;    
+    padding-right: 5%;
+    border-left: 7px solid orange;
+    border-top: 1px solid lightblue;
+    border-right: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+#quotes p {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    font-style: italic;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+#test {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    top:100vh;
+    background-color: transparent;
+    z-index: -9999;
+}
+
+#main .judul{
+    display: flex;
+    background-image: linear-gradient(to bottom,white,gray);
+    padding-left: 20px;
+    width: 90%;
+    height: 90px;
+    margin: 30px auto 30px auto;
+    align-items: center;
+}
+
+#main .judul h1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#main .isi {
+    display: flex;
+    background-image: linear-gradient(to bottom,white,gray);
+    padding-left: 20px;
+    width: 90%;
+    margin: 30px auto 30px auto;
+    align-items: center;
+    font-size: 2.15rem;
+    padding: 30px 20px 30px 20px;
+    text-align: justify;
+}
+
+#main .colm {
+    justify-content: space-between;
+    display: flex;
+    background-image: linear-gradient(to bottom,white,gray);
+    width: 90%;
+    margin: 30px auto;
+    font-size: 2.15rem;
+    text-align: justify;
+    height: 200px;
+}
+
+#main .colm p {
+    margin: auto;
+    width: 30%;
+}
+
+#footer p {
+    margin-top: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
