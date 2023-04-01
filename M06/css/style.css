@@ -1,0 +1,144 @@
+img {
+    width: 50px;
+    height: 50px;
+    margin: auto 10px;
+}
+
+body {
+    background-image: linear-gradient(270deg,#616161,#7e7e7e,#AAAAAA,#C1C1C1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    margin: 30px auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 70%;
+    height: 890px;
+}
+
+
+.col {
+    width: 50%;
+    height: 100%;
+}
+
+.container .left {
+    background-image: url(https://wallpapertag.com/wallpaper/full/d/c/f/725315-vertical-sax-wallpaper-2560x1600-laptop.jpg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.container .left p {
+    color: white;
+    margin-top: 110%;
+    font-weight: 800;
+}
+
+.container .right {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 0 20px 20px 0;
+
+}
+
+.box {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+hr {
+    width: 40%;
+    height: 2px;
+    background-color: white;
+}
+
+form .form, h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form .form input {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.social {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign {
+    display: flex;
+    width: 32%;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    padding-left: 65%;
+}
+
+.sign a {
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    font-weight: 800;
+
+}
+
+.sign-in {
+    color: black;
+    font-weight: 800;
+}
+
+#regist {
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.check {
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+}
+
+#name, #email, #pwd {
+    display: flex;
+    color: black;
+    margin: 5px 0;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+}
+
+.name, .email, .pwd {
+    margin: 30px 0;
+}
+
+h1 {
+    margin: 50px 0;
+}
