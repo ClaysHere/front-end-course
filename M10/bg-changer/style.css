@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 800px;
+}
+
+h1 {
+  background-color: slategrey;
+  color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.button {
+  padding: 2rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  width: 7rem;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+  color: white;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#red {
+  background-color: red;
+}
+#pink {
+  background-color: pink;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  background-image: url("https://static.nationalgeographic.co.uk/files/styles/image_3200/public/01-cat-names-nationalgeographic_1525054.jpg?w=400&h=400&q=75");
+  border-radius: 2rem;
+  border: 5px solid black;
+}
