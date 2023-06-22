@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.inner_header {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.inner_header img {
+  height: 60px;
+  padding: 12px 8px;
+}
+
+main {
+  width: 100%;
+}
+
+#content {
+  max-width: 1366px;
+  margin: 0 auto;
+
+  padding: 0 8px;
+}
+
+#content #search {
+  width: 100%;
+  height: 32px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 2px 4px;
+}
+
+.filter_container {
+  display: flex;
+  gap: 32px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #131516;
+}
+
+.filter input[type="text"] {
+  height: 28px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  padding: 0px 4px;
+}
+
+.filter {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.list_book_container {
+  margin-top: 18px;
+}
+
+.list_book_container h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.list_book_container hr {
+  margin-bottom: 24px;
+}
+
+.list_card_book {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 32px;
+  row-gap: 16px;
+}
+
+.card_book {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 12px 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-weight: 600;
+  color: #373d3f;
+  font-size: 20px;
+}
+
+.author {
+  color: #707c80;
+  font-size: 16px;
+}
+
+.publisher {
+  color: #a7b0b2;
+  font-size: 14px;
+}
